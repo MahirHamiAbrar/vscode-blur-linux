@@ -1,0 +1,58 @@
+{
+  "name": "vscode-blur-linux",
+	"displayName": "vscode-blur-linux",
+	"publisher": "mhabrar",
+	"description": "makes the vscode background blurry in kde plasma linux distros.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.18.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+        "onStartupFinished"
+	],
+    "icon": "images/icon.png",
+	"main": "./extension.js",
+	"contributes": {
+		"configuration": [
+            {
+                "title": "vscode-blur-linux",
+                "properties": {
+                    "vscode-blur-linux.opacity": {
+                        "type": "integer",
+                        "scope": "window",
+                        "description": "Set the opacity of the windows. (requires restart)",
+                        "default": 88
+                    },
+
+					"vscode-blur-linux.blur": {
+                        "type": "boolean",
+                        "scope": "window",
+                        "description": "Add blur to the window background (requires restart)",
+                        "default": true
+                    }
+
+                }
+            }
+        ]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+        "@types/vscode": "^1.69.0",
+        "@types/glob": "^7.2.0",
+        "@types/mocha": "^9.1.1",
+        "@types/node": "16.x",
+        "eslint": "^8.18.0",
+        "glob": "^8.0.3",
+        "mocha": "^10.0.0",
+        "typescript": "^4.7.4",
+        "@vscode/test-electron": "^2.1.5"
+    }
+
+}
