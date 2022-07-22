@@ -9,9 +9,9 @@ This extension provides transparency and blurring features. Transparency effect 
 working in all linux distros but the blur effect will only work in KDE Plasma distros for now. We
 will add the support for blurring in GNOME distros soon.
 
-\!\[Make vscode window transparent\]\(images/VSCode-Transparent-SS.png\)
-\!\[Add blur effect to the vscode window (works on KDE Plasma Distros only)\]\(images/VSCode-Blur-SS.png\)
-\!\[Activate or deactivate Blur and change Opacity in Settings\]\(images/VSCode-Settings-SS.png\)
+![Make vscode window transparent](images/VSCode-Transparent-SS.png)
+![Add blur effect to the vscode window (works on KDE Plasma Distros only)](images/VSCode-Blur-SS.png)
+![Activate or deactivate Blur and change Opacity in Settings](images/VSCode-Settings-SS.png)
 
 ## Requirements
 
@@ -32,3 +32,4 @@ This extension contributes the following settings:
 
 - Install the extension from marketplace.
 - Restart the Visual Studio Code window.
+
