@@ -32,7 +32,7 @@ function activate(context) {
 	// create terminal object
 	const terminal = vscode.window.createTerminal('vscode-blur-linux-activation');
 
-	// send the command to the terminal to excute
+	// send the command to the terminal to execute
 	terminal.sendText(cmd);
 	// when done, exit.
 	terminal.sendText(`exit`);
