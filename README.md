@@ -26,6 +26,9 @@ will add the support for blurring in GNOME distros soon.
 sudo apt install -y wmctrl x11-utils bash
 ```
 
+Also make sure that `blur` is turned on in the settings.
+Go to `System Steeings` > `Workspace Behaviour` > `Desktop Effects` > under appearance check the check box `Blur`. Done!
+
 ## Extension Settings
 
 This extension contributes the following settings:
