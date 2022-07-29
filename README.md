@@ -27,7 +27,9 @@ sudo apt install -y wmctrl x11-utils bash
 ```
 
 Also make sure that `blur` is turned on in the settings.
-Go to `System Steeings` > `Workspace Behaviour` > `Desktop Effects` > under appearance check the check box `Blur`. Done!
+Go to `System Steeings` > `Workspace Behaviour` > `Desktop Effects` > under appearance check the check box `Blur`.
+You might need to change the blur strength by clicking the gear icon at the very right side beside `Blur`. and then click `Apply`.
+Done!
 
 ## Extension Settings
 
