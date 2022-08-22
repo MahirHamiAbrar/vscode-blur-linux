@@ -20,7 +20,7 @@ will add the support for blurring in GNOME distros soon.
 
 ## Requirements
 
-`vscode-blur-linux` requires `wmctrl` (to get the window ID), `xprop` (to set transparency), and `bash` (to run the transparency commands) installed on your system. These come standard with most Linux distributions, but just in case, you can install them with:
+`vscode-blur-linux` requires `wmctrl` (to get the window ID), `xprop` (to set transparency), and `bash` (to run the transparency commands) installed on your system. First install them with:
 
 ``` bash
 sudo apt install -y wmctrl x11-utils bash
