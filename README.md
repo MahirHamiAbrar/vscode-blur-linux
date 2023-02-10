@@ -6,8 +6,8 @@ vscode-blur-linux helps to achieve transparent and blurry background to vscode w
 ## Features
 
 This extension provides transparency and blurring features. Transparency effect is expected to be
-working in all linux distros but the blur effect will only work in KDE Plasma distros for now. We
-will add the support for blurring in GNOME distros soon.
+working on all linux distros but the blur effect will only work on KDE Plasma distros for now. We
+will be adding the support for blurring on GNOME distros verry soon.
 
 ### Make vscode window transparent
 ![Make vscode window transparent](images/VSCode-Transparent-SS.png)
