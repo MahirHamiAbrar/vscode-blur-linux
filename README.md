@@ -29,13 +29,13 @@ sudo apt install -y wmctrl x11-utils bash
 ```
 
 ### Install Dependencies on Arch Linux:
-#### Pacman:
+#### pacman:
 
 ``` bash
 sudo pacman -S wmctrl bash
 ```
 
-#### yay
+#### yay:
 
 ```bash
 yay -S pacman bash
