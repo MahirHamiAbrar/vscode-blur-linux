@@ -22,20 +22,20 @@ will be adding the support for blurring on GNOME distros verry soon.
 
 `vscode-blur-linux` requires `wmctrl` (to get the window ID), `xprop` (to set transparency), and `bash` (to run the transparency commands) installed on your system.
 
-* ### Install Dependencies on Ubuntu/Debian:
+### Install Dependencies on Ubuntu/Debian:
 
 ``` bash
 sudo apt install -y wmctrl x11-utils bash
 ```
 
-* ### Install Dependencies on Arch Linux:
-* * #### pacman:
+### Install Dependencies on Arch Linux:
+#### pacman:
 
 ``` bash
 sudo pacman -S wmctrl bash
 ```
 
-* * #### yay:
+#### yay:
 
 ```bash
 yay -S pacman bash
@@ -58,4 +58,5 @@ This extension contributes the following settings:
 * First install the dependencies.
 * Then install the extension from marketplace.
 * Finally restart the Visual Studio Code window.
-_You are done! Enjoy the new look of your Visual Studio Code!
+
+You are done! Enjoy the new look of your Visual Studio Code!
