@@ -28,14 +28,14 @@ will be adding the support for blurring on GNOME distros verry soon.
 sudo apt install -y wmctrl x11-utils bash
 ```
 
-### Install Dependencies on Arch Linux:
-#### pacman:
+* ### Install Dependencies on Arch Linux:
+* * #### pacman:
 
 ``` bash
 sudo pacman -S wmctrl bash
 ```
 
-#### yay:
+* * #### yay:
 
 ```bash
 yay -S pacman bash
@@ -58,4 +58,4 @@ This extension contributes the following settings:
 * First install the dependencies.
 * Then install the extension from marketplace.
 * Finally restart the Visual Studio Code window.
-
+_You are done! Enjoy the new look of your Visual Studio Code!
