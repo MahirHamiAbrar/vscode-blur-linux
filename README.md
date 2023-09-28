@@ -22,17 +22,25 @@ will be adding the support for blurring on GNOME distros verry soon.
 
 `vscode-blur-linux` requires `wmctrl` (to get the window ID), `xprop` (to set transparency), and `bash` (to run the transparency commands) installed on your system.
 
-# Installation on Ubuntu/Debian:
+### Install Dependencies on Ubuntu/Debian:
 
 ``` bash
 sudo apt install -y wmctrl x11-utils bash
 ```
 
-# Installation on Arch Linux:
+### Install Dependencies on Arch Linux:
+#### Pacman:
 
 ``` bash
-sudo pacman -S wmctrl x11-utils bash
+sudo pacman -S wmctrl bash
 ```
+
+#### yay
+
+```bash
+yay -S pacman bash
+```
+
 
 Also make sure that `blur` is turned on in the settings.
 Go to `System Steeings` > `Workspace Behaviour` > `Desktop Effects` > under appearance check the check box `Blur`.
