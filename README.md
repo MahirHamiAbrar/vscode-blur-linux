@@ -55,7 +55,7 @@ This extension contributes the following settings:
 * `vscode-blur-linux.blur`: enable/disable blur effect behind the window.
 
 ## Usage
-
-- Install the extension from marketplace.
-- Restart the Visual Studio Code window.
+_- First install the dependencies.
+_-  Then install the extension from marketplace.
+_- Finally restart the Visual Studio Code window.
 
